@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lora';
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("../img/bg.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("../img/bg.jpeg");
   background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway';
+  font-family: 'Lora';
 }
 
 p {
@@ -253,5 +253,5 @@ p {
 }
 
 .font-weight-light {
-  font-weight: 100 !important;
+  font-weight: 200 !important;
 }

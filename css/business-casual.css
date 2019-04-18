@@ -5,30 +5,15 @@
  */
 
  /* ---- reset ---- */
- body {
-   margin: 0;
-   font: normal 75% Arial, Helvetica, sans-serif;
- }
 
- canvas {
+ /* canvas {
    display: block;
    vertical-align: bottom;
- }
+ } */
 
- /* ---- particles.js container ---- */
- #particles-js {
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   background-color: rgba(19, 233, 233, 0);
-   /* background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1237px-NASA_logo.svg.png"); */
-   background-repeat: no-repeat;
-   background-size: 20%;
-   background-position: 50% 50%;
- }
 
  /* ---- stats.js ---- */
- .count-particles {
+ /* .count-particles {
    background: #000022;
    position: absolute;
    top: 48px;
@@ -42,9 +27,9 @@
    padding-bottom: 2px;
    font-family: Helvetica, Arial, sans-serif;
    font-weight: bold;
- }
+ } */
 
- .js-count-particles {
+ /* .js-count-particles {
    font-size: 1.1em;
  }
 
@@ -62,10 +47,10 @@
 
  .count-particles {
    border-radius: 0 0 3px 3px;
- }
+ } */
 
 body {
-  font-family: 'Lora';
+  font-family: 'Questrial';
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("../img/bg.jpeg");
   background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../img/bg.jpeg");
   background-attachment: fixed;
@@ -79,7 +64,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lora';
+  font-family: 'Ralway';
 }
 
 p {
@@ -95,19 +80,22 @@ p {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-weight: 200;
+  font-family: 'Ralway', 'Questrial';
 }
 
 .site-heading .site-heading-upper {
   display: block;
   font-size: 2rem;
   font-weight: 800;
+  font-family: 'Ralway';
 }
 
 .site-heading .site-heading-lower {
   font-size: 5rem;
   font-weight: 100;
   line-height: 4rem;
+  font-family: 'Questrial';
 }
 
 .page-section {
@@ -123,12 +111,14 @@ p {
   display: block;
   font-size: 1rem;
   font-weight: 800;
+  font-family: 'Questrial'
 }
 
 .section-heading .section-heading-lower {
   display: block;
   font-size: 3rem;
   font-weight: 100;
+  font: 1em Ralway;
 }
 
 .bg-faded {
@@ -137,7 +127,7 @@ p {
 
 #mainNav {
   background-color: rgb(204, 159, 177);
-  font-family: 'Raleway';
+  font-family: 'Questrial';
 }
 
 #mainNav .navbar-brand {

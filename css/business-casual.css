@@ -51,8 +51,8 @@
 
 body {
   font-family: 'Questrial';
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("../img/bg.jpeg");
-  background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../img/bg.jpeg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0))), url("../img/leaves.jpg");
+  background: linear-gradient(rgba(47, 23, 15, 0)), url("../img/leaves.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -99,7 +99,7 @@ p {
 }
 
 .page-section {
-  margin-top: 5rem;
+  margin-top: 10rem;
   margin-bottom: 5rem;
 }
 
@@ -126,15 +126,15 @@ p {
 }
 
 #mainNav {
-  background-color: rgb(204, 159, 177);
+  background-color: #F9BDB4;
   font-family: 'Questrial';
 }
 
 #mainNav .navbar-brand {
-  color: #b2bbbe;
+  color: #17a2b8;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link {
+#mainNav .navbar-nav .nav-item .nav-link .nav-brand:hover{
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
 }
@@ -293,14 +293,14 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #509508;
+  border-color: #509508;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
-}
+/* .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: rgb(249, 189, 180);
+  border-color: rgb(249, 189, 180);
+} */
 
 .font-weight-light {
   font-weight: 200 !important;

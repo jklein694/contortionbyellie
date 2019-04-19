@@ -41,8 +41,8 @@
 })(jQuery); // End of use strict
 particlesJS("particles-js", {
   particles: {
-    number: { value: 160, density: { enable: true, value_area: 800 } },
-    color: { value: "#ffffff" },
+    number: { value: 240, density: { enable: true, value_area: 800 } },
+    color: { value: "#F9BDB4" },
     shape: {
       type: "circle",
       stroke: { width: 0, color: "#000000" },
@@ -62,7 +62,7 @@ particlesJS("particles-js", {
     line_linked: {
       enable: false,
       distance: 150,
-      color: "#ffffff",
+      color: "#F9BDB4",
       opacity: 0.4,
       width: 1
     },
@@ -81,7 +81,7 @@ particlesJS("particles-js", {
     detect_on: "canvas",
     events: {
       onhover: { enable: true, mode: "repulse" },
-      onclick: { enable: true, mode: "repulse" },
+      onclick: { enable: true, mode: "push" },
       resize: true
     },
     modes: {
@@ -93,8 +93,8 @@ particlesJS("particles-js", {
         opacity: 0.6009371371029953,
         speed: 3
       },
-      repulse: { distance: 63.93606393606394, duration: 0.4 },
-      push: { particles_nb: 4 },
+      repulse: { distance: 60.93606393606394, duration: 0.4 },
+      push: { particles_nb: 6 },
       remove: { particles_nb: 2 }
     }
   },
